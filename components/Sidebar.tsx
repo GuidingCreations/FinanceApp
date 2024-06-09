@@ -71,7 +71,11 @@ const pathname = usePathname()
 
                 )
             })}
+
+            User
         </nav>
+
+        FOOTER
     </section>
   )
 }
