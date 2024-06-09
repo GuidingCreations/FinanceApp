@@ -1,6 +1,7 @@
 
 import React from 'react'
 import CountupAnimation from './CountupAnimation'
+import DoughnutChart from './DoughnutChart'
 
 
 const TotalBalanceBox = ({
@@ -12,7 +13,7 @@ const TotalBalanceBox = ({
     <div className='total-balance'>
 
     <div className='total-balance-chart'>
-        // Chart goes here
+        <DoughnutChart accounts={accounts} />
     </div>
 
     <div className='flex flex-col gap-6'>
